@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "title": "To Kill a Mockingbird",
+    "price": 10.99,
+    "category": "Classic Literature",
+    "image": " https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "2",
+    "title": "1984",
+    "price": 8.99,
+    "category": "Dystopian Fiction",
+    "image": " https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "3",
+    "title": "The Great Gatsby",
+    "price": 12.50,
+    "category": "Classic Literature",
+    "image": " https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "4",
+    "title": "Becoming",
+    "price": 18.99,
+    "category": "Biography",
+    "image":"  https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "5",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "price": 9.99,
+    "category": "Fantasy",
+    "image": " https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "6",
+    "title": "The Hobbit",
+    "price": 11.99,
+    "category": "Fantasy",
+    "image": " https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "7",
+    "title": "Educated",
+    "price": 14.99,
+    "category": "Memoir",
+    "image": " https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "8",
+    "title": "The Catcher in the Rye",
+    "price": 10.00,
+    "category": "Classic Literature",
+    "image": " https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "9",
+    "title": "The Road",
+    "price": 13.50,
+    "category": "Post-Apocalyptic Fiction",
+    "image": " https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "11",
+    "title": "Pride and Prejudice",
+    "price": 7.99,
+    "category": "Romance",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "12",
+    "title": "The Alchemist",
+    "price": 8.99,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "13",
+    "title": "The Book Thief",
+    "price": 12.99,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "14",
+    "title": "The Da Vinci Code",
+    "price": 15.99,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d4344eba9&w=1060"
+  },
+  {
+    "id": "15",
+    "title": "The Fault in Our Stars",
+    "price": 9.50,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d434"
+  },
+  {
+    "id": "16",
+    "title": "The Fault is Ours",
+    "price": 9.50,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721919635~exp=1721923235~hmac=31637532706e48379f4d5f2df08c6f6c9f814a5ddcc977f28d3c4d2d434"
+  }
+]
