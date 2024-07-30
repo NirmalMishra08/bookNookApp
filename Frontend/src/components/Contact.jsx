@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import { useForm } from 'react-hook-form';
 
@@ -13,8 +14,11 @@ function Contact() {
       const onSubmit = (data) => console.log(data);
     return (
         <>
+       
             <div className="min-h-screen flex items-center justify-center bg-gray-100">
+           
                 <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md border-2 border-gray-300">
+       
                     <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
                     <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
                         <div>
@@ -47,14 +51,20 @@ function Contact() {
                                 {errors.message && <span className="text-red-500 text-sm">Name is required</span>}
                          
                         </div>
-                        <div className="flex justify-center">
+                        <div className="flex  flex-col gap-3 justify-center items-center">
                             <button
                                 type="submit"
                                 className="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
                             >
                                 Sign Up
                             </button>
+                           <Link to='/'> <button type="button" className="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm  me-2 mb-2 h-[50px] px-5 py-2.5 text-center  ">
+                                Back to Home page
+                            </button></Link>
+                           
+                            
                         </div>
+                       
 
                     </form>
                 </div>

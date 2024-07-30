@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import Login from './Login';
+import { UseAuth } from '../context/AuthProvider';
+import Logout from './Logout';
 
 function Navbar() {
-
+    const [authUser,setAuthUser]=UseAuth()
     const [theme, settheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
     useEffect(() => {
         if (theme === 'dark') {
@@ -129,13 +131,16 @@ function Navbar() {
                                     </svg>
                                 </label>
                             </div>
-
-
-                            <div className='pt-2.5'>
+                            {
+                                authUser?<Logout/>:<div className='pt-2.5'>
                                 <a className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ml-2 " onClick={()=>document.getElementById('my_modal_3').showModal()}>Login</a>
                                 <Login/>
                                 
                             </div>
+                            }
+
+
+                            
                         </div>
 
 
